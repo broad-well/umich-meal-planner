@@ -1,0 +1,55 @@
+{
+  "name": "meal-planner",
+  "version": "0.0.1",
+  "description": "Plan my meals against daily Calorie quotas",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.conf.js --host 0.0.0.0",
+    "build": "webpack -p --config webpack.conf.js",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trueadm/inferno-boilerplate.git"
+  },
+  "keywords": [
+    "inferno",
+    "boilerplate",
+    "cerebral",
+    "jsx"
+  ],
+  "author": "Dominic Gannaway",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trueadm/inferno-boilerplate/issues"
+  },
+  "homepage": "https://github.com/trueadm/inferno-boilerplate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-syntax-jsx": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/runtime": "^7.15.4",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-inferno": "^6.0.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "eslint": "^5.16.0",
+    "eslint-config-inferno-app": "^7.0.2",
+    "glob": "^7.1.4",
+    "inferno-devtools": "^7",
+    "url": "^0.11.0",
+    "webpack": "4.35.0",
+    "webpack-dev-server": "3.7.2"
+  },
+  "dependencies": {
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "history": "^4.9.0",
+    "inferno": "^7",
+    "inferno-component": "^7",
+    "inferno-create-element": "^7",
+    "inferno-router": "^7",
+    "webpack-cli": "^3.3.4"
+  }
+}
